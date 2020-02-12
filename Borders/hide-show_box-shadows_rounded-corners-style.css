@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'diabloheavy';
+    src: url('diablo_h-webfont.woff2') format('woff2'),
+         url('diablo_h-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 50px auto 50px auto;
+    width: 960px;
+    background-color: yellow;
+    color: blue;
+    font-family: diabloheavy;
+    box-shadow: 0 0 10px #777777;
+    border-radius: 10px 20px 30px 40px;
+}
+p {
+    display: inline-block;
+    background-color: yellow;
+    border-width: 5px;
+}
+
+#paragraph-first{
+    vertical-align:top ;
+    border-style: dashed;
+    border-color: red;
+    width: 300px;
+    margin-right: 20px;
+
+}
+#paragraph-second{
+    visibility: hidden;
+    vertical-align:top ;
+    width: 400px;
+    border-style: solid;
+    border-color: green;
+    margin-right: 20px;
+}
+#paragraph-third{
+    visibility: hidden;
+    vertical-align: top;
+    width: 200px;
+    border-style: dashed;
+    border-color: red;
+    margin-right: 20px;
+}
+

@@ -1,0 +1,24 @@
+#first-unordered-list{
+    list-style-type: circle;
+}
+
+#second-unordered-list{
+    list-style: square;
+}
+
+#first-ordered-list{
+    list-style-type:upper-alpha;
+} 
+
+#second-ordered-list{
+    list-style: upper-roman;
+}
+
+#third-unordered-list{
+list-style-image:url(./Little-Coffee-Fox-Square-logo-png-12px.png);
+}
+
+#fourth-unordered-list{
+    list-style-position: inside;
+    list-style-image:url(./fox_1x_12px.png);
+}

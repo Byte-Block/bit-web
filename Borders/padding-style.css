@@ -1,0 +1,11 @@
+p{
+    background-color: yellow;
+}
+
+#paragraph-first, #paragraph-third{
+    padding: 50px;
+}
+
+#paragraph-second{
+    padding-top: 50px;
+}

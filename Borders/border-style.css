@@ -1,0 +1,17 @@
+p {
+    background-color: yellow;
+    border-width: 5px;
+}
+
+#paragraph-first{
+border-style: dashed;
+border-color: red;
+}
+#paragraph-third{
+    border-style: dashed;
+    border-color: red;
+}
+#paragraph-second{
+border-style: solid;
+border-color: green;
+}

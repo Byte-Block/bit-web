@@ -1,0 +1,29 @@
+p {
+    background-color: yellow;
+    border-width: 5px;
+}
+
+#paragraph-first{
+    padding: 50px;
+    border-style: dashed;
+    border-color: red;
+    width: 300px;
+    margin: 50px;
+
+}
+#paragraph-second{
+    width: 400px;
+    padding-top: 50px; 
+    border-style: solid;
+    border-color: green;
+    margin-right: auto;
+    margin-left: auto;
+}
+#paragraph-third{
+    width: 200px;
+    padding: 50px;
+    border-style: dashed;
+    border-color: red;
+    margin-left: 100px;
+}
+
