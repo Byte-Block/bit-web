@@ -1,0 +1,13 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+#division-one{
+    background-color: red;
+}
+#division-two{
+    background-color: blue;
+}
+#division-three{
+    background-color: yellow;
+}

@@ -1,0 +1,32 @@
+table{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+table tr:nth-child(2n+1) {
+    background-color:gainsboro;
+}
+th{
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+img{
+    display: block;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+tr:hover{
+    background-color: sandybrown !important;
+}
+#image-the-second, #image-the-fourth{
+    background-color: gainsboro;
+}
+
