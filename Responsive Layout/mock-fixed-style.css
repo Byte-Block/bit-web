@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cf::before{
+    display: table;
+    content: '';
+}
+.cf::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+header{
+    display: flex;
+    height: 100px;
+    width: 960px;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header{
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+#logo{
+    height: 100px;
+    margin-left: 25px;
+}
+h1{
+    margin-top: 2px;
+    margin-bottom: 4px;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+h5{
+   margin-top: 14px;
+   margin-left: 6px;
+   font-weight: lighter; 
+}
+
+main{
+    width: 960px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#about-us{
+    width: 45%;
+    float: left;
+    margin-left: 30px;
+}
+
+#posts{
+    width: 45%;
+    float: right;
+    padding-left: 30px;
+    border-left: solid 2px;
+
+}
