@@ -1,0 +1,100 @@
+/* General */
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: Roboto-Regular;
+}
+
+header {
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    position:relative;
+}
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+/* Header */
+
+header #header {
+    justify-content: space-between;
+}
+
+header h1 {
+    color: white;
+    margin-left: 22px;
+    font-weight: bolder;
+}
+
+body header #header h1 span {
+    color: orange;
+    border: 3px solid white;
+    border-right: none;
+    padding-left: 8px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#banner {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#slogan-button {
+    width: 100%;
+    max-width: 1200px;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}
+
+#slogan {
+    width: 100%;
+    color: white;
+    font-size: 46px;
+    font-weight: lighter;
+    margin-left: 0;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: #1c70b1;
+    border-style: none;
+    border-radius: 25px;
+}
+
