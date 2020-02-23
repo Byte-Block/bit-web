@@ -1,4 +1,7 @@
 /* General */
+ * {
+     box-sizing: border-box;
+ }
 
 @font-face {
     font-family: Roboto-Regular;
@@ -10,11 +13,16 @@ body {
     font-family: Roboto-Regular;
 }
 
-header {
+#container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header, main {
     width: 100%;
     max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     position:relative;
 }
 #header {
@@ -98,3 +106,79 @@ button {
     border-radius: 25px;
 }
 
+/* Main */
+
+#who-container {
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin:  5% 40% 5% 40%;
+    position: relative;
+}
+
+ h2 {
+    font-weight: lighter;
+ }
+
+#rotated-square {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    z-index: 2;
+    transform: rotateZ(45deg);
+    position: absolute;
+    background-color: white;
+    left: 46%;
+    top: 80%;
+}
+
+#article-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#first-article {
+    width: 30%;
+    margin: 0 1.5%;
+}
+
+#first-article>h3 {
+    color: #53a2e0;
+}
+
+#second-article {
+    width: 30%;
+    margin: 0 1.5%;
+}
+
+#second-article>img {
+    width: 100%;
+}
+
+#third-article {
+    width: 30%;
+    margin: 0 1.5%;
+}
+
+#third-article>h3 {
+    color: #53a2e0;
+}
+
+#first-article>ul, #third-article>ul {
+    list-style-image: url(./assets/images/arrow_bullet.png);
+    color: #777;
+}
+
+/* Second Section */
+
+#what-container {
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin:  5% 40% 5% 40%;
+    position: relative;
+}
+
+#what-container>h2 {
+    font-weight: lighter;
+ }
+
+ 
