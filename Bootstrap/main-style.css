@@ -1,0 +1,28 @@
+.container .row.first-row{
+    background-color: aliceblue;
+}
+
+.container .row.second-row {
+    background-color: antiquewhite;
+}
+
+.container .row.third-row{
+    background-color: aqua;
+}
+
+.row.first-row .col-8 {
+    background-color: aquamarine;
+}
+
+.row.first-row .col-4{
+    background-color: aquamarine;
+}
+
+.row.second-row .col-4 {
+    background-color: azure;
+}
+
+
+.row.third-row .col-6{
+    background-color: beige;
+}
