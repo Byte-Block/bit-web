@@ -1,0 +1,11 @@
+p {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px inset darkblue;
+  font-size: 2em;
+  font-style: italic;
+  background-color: aquamarine; }
+
+/*# sourceMappingURL=basics-style.css.map */
